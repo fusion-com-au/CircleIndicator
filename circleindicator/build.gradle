@@ -8,8 +8,8 @@ android {
     defaultConfig {
         minSdkVersion 17
         targetSdkVersion 25
-        versionCode 122
-        versionName version
+        versionName project.VERSION_NAME
+        versionCode Integer.parseInt(project.VERSION_CODE)
     }
 
     buildTypes {
@@ -25,3 +25,6 @@ dependencies {
     compile 'com.android.support:support-core-ui:25.4.0'
     provided 'com.android.support:design:25.4.0'
 }
+
+// Used to push in maven
+apply from: '../maven_push.gradle'

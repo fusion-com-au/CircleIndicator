@@ -18,7 +18,6 @@ public class CustomChangesFragment extends Fragment implements ViewPager.OnPageC
 
     private ViewPager viewPager;
     private CustomFancyPagerAdapter pagerAdapter;
-    private int lastPage = 0;
     private ArgbEvaluator argbEvaluator = new ArgbEvaluator();
     private Integer[] backgroundColors;
     private Integer[] indicatorColors;
@@ -64,8 +63,6 @@ public class CustomChangesFragment extends Fragment implements ViewPager.OnPageC
             // Use the last color
             viewPager.setBackgroundColor(backgroundColors[backgroundColors.length - 1]);
         }
-
-        lastPage = position;
     }
 
     @Override

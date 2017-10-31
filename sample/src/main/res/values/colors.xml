@@ -4,16 +4,10 @@
     <color name="primary_color">#424242</color>
     <color name="primary_color_dark">#212121</color>
 
-    <!--<color name="grey_50">#FAFAFA</color>-->
-    <!--<color name="grey_100">#F5F5F5</color>-->
-    <!--<color name="grey_200">#EEEEEE</color>-->
-    <!--<color name="grey_300">#E0E0E0</color>-->
-    <!--<color name="grey_400">#BDBDBD</color>-->
-    <!--<color name="grey_500">#9E9E9E</color>-->
-    <!--<color name="grey_600">#757575</color>-->
-    <!--<color name="grey_700">#616161</color>-->
-    <!--<color name="grey_800">#424242</color>-->
-    <!--<color name="grey_850">#323232</color>-->
-    <!--<color name="grey_900">#212121</color>-->
+    <color name="red">#F44336</color>
+    <color name="purple">#9C27B0</color>
+    <color name="blue">#2196F3</color>
+    <color name="green">#4CAF50</color>
+    <color name="orange">#FF9800</color>
 
 </resources>

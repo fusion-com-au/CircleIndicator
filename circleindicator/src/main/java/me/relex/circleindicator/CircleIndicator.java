@@ -9,17 +9,17 @@ import android.database.DataSetObserver;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
-import android.support.annotation.AnimatorRes;
-import android.support.annotation.DrawableRes;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.View;
 import android.view.animation.Interpolator;
 import android.widget.LinearLayout;
 
-import static android.support.v4.view.ViewPager.OnPageChangeListener;
+import androidx.annotation.AnimatorRes;
+import androidx.core.content.ContextCompat;
+import androidx.viewpager.widget.ViewPager;
+import androidx.viewpager.widget.ViewPager.*;
+
 
 public class CircleIndicator extends LinearLayout {
 
@@ -107,9 +107,9 @@ public class CircleIndicator extends LinearLayout {
     }
 
     public void configureIndicator(int indicatorWidth, int indicatorHeight, int indicatorMargin,
-            @AnimatorRes int animatorId, @AnimatorRes int animatorReverseId,
-            Drawable indicatorBackgroundId,
-            Drawable indicatorUnselectedBackgroundId) {
+                                   @AnimatorRes int animatorId, @AnimatorRes int animatorReverseId,
+                                   Drawable indicatorBackgroundId,
+                                   Drawable indicatorUnselectedBackgroundId) {
 
         mIndicatorWidth = indicatorWidth;
         mIndicatorHeight = indicatorHeight;
